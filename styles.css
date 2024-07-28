@@ -67,3 +67,39 @@ header {
   width: 700px;
   height: 200px;
 }
+
+/* Info Section Styles */
+
+.info-container {
+  display: flex;
+  max-width: 900px;
+  min-height: auto;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.info-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 0.5em;
+  margin-bottom: 20px;
+}
+
+.info-h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info-card p {
+  text-align: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
