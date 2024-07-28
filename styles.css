@@ -7,6 +7,8 @@
 /* Header Styling */
 header {
   background-color: #1f2937;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .header-logo {
   font-size: 24px;
@@ -70,6 +72,11 @@ header {
 
 /* Info Section Styles */
 
+.info-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .info-container {
   display: flex;
   max-width: 900px;
@@ -102,4 +109,23 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  max-width: 900px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.quote-cont {
+  padding: 6em;
+}
+
+.quote-cont p {
+  font-size: 36px;
+  font-style: italic;
+}
+.quote-auth {
+  float: inline-end;
 }
